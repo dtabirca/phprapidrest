@@ -1,0 +1,19 @@
+{
+	"name": "dtabirca/phprapidrest",
+	"descripton": "generic simple php rest api",
+	"version": "0.9.0-beta",
+    "require": {
+    	"phpunit/phpunit": "8.5.2",
+        "guzzlehttp/guzzle": "6.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "phprapidrest\\": "src/",
+            "phprapidrest\\example\\": "example/",
+            "phprapidrest\\test\\": "test/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }    
+}
